@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+  <rect width="400" height="240" fill="#2d1b0e"/>
+  <!-- Grill grates -->
+  <line x1="0" y1="40" x2="400" y2="40" stroke="#4a2c12" stroke-width="8"/>
+  <line x1="0" y1="80" x2="400" y2="80" stroke="#4a2c12" stroke-width="8"/>
+  <line x1="0" y1="120" x2="400" y2="120" stroke="#4a2c12" stroke-width="8"/>
+  <line x1="0" y1="160" x2="400" y2="160" stroke="#4a2c12" stroke-width="8"/>
+  <line x1="60" y1="0" x2="60" y2="240" stroke="#4a2c12" stroke-width="8"/>
+  <line x1="140" y1="0" x2="140" y2="240" stroke="#4a2c12" stroke-width="8"/>
+  <line x1="220" y1="0" x2="220" y2="240" stroke="#4a2c12" stroke-width="8"/>
+  <line x1="300" y1="0" x2="300" y2="240" stroke="#4a2c12" stroke-width="8"/>
+  <line x1="380" y1="0" x2="380" y2="240" stroke="#4a2c12" stroke-width="8"/>
+  <!-- Fire / ember glow -->
+  <ellipse cx="100" cy="200" rx="60" ry="25" fill="#e85d26" opacity=".4"/>
+  <ellipse cx="280" cy="195" rx="50" ry="20" fill="#f59e0b" opacity=".3"/>
+  <ellipse cx="180" cy="205" rx="70" ry="22" fill="#e85d26" opacity=".35"/>
+  <!-- Steak on grill -->
+  <ellipse cx="150" cy="105" rx="100" ry="65" fill="#6b2e08"/>
+  <ellipse cx="148" cy="100" rx="95" ry="60" fill="#8b4010"/>
+  <ellipse cx="146" cy="96" rx="85" ry="52" fill="#a85020"/>
+  <!-- Grill char marks -->
+  <rect x="80" y="82" width="10" height="60" rx="3" fill="#3a1606" transform="rotate(-15 80 82)" opacity=".8"/>
+  <rect x="115" y="78" width="10" height="65" rx="3" fill="#3a1606" transform="rotate(-15 115 78)" opacity=".75"/>
+  <rect x="150" y="76" width="10" height="66" rx="3" fill="#3a1606" transform="rotate(-15 150 76)" opacity=".8"/>
+  <rect x="185" y="78" width="10" height="65" rx="3" fill="#3a1606" transform="rotate(-15 185 78)" opacity=".75"/>
+  <!-- Fat rendering edge -->
+  <ellipse cx="148" cy="96" rx="80" ry="48" fill="none" stroke="#f5e0c0" stroke-width="3" opacity=".5"/>
+  <!-- Herbs -->
+  <ellipse cx="80" cy="90" rx="10" ry="6" fill="#27ae60" transform="rotate(-20 80 90)"/>
+  <ellipse cx="210" cy="88" rx="9" ry="5" fill="#2ecc71" transform="rotate(15 210 88)"/>
+  <!-- Steam / smoke -->
+  <path d="M130 52 q8-20 4-38" stroke="rgba(255,255,255,.25)" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M158 44 q10-24 4-42" stroke="rgba(255,255,255,.2)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M180 50 q8-18 3-34" stroke="rgba(255,255,255,.2)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Overlay label -->
+  <rect x="0" y="195" width="400" height="45" fill="rgba(10,5,2,.6)"/>
+  <text x="200" y="222" text-anchor="middle" font-size="16" fill="#e85d26" font-family="Georgia, serif" font-style="italic">Open Fire Grill</text>
+</svg>

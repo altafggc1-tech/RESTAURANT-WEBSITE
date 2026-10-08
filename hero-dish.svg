@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 400" width="480" height="400">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3d2060"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </radialGradient>
+    <radialGradient id="plate" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#fff9f5"/>
+      <stop offset="100%" stop-color="#f0e8e0"/>
+    </radialGradient>
+  </defs>
+  <!-- Glow -->
+  <ellipse cx="240" cy="230" rx="180" ry="130" fill="#e85d26" opacity=".18"/>
+  <!-- Plate shadow -->
+  <ellipse cx="240" cy="310" rx="150" ry="22" fill="#000" opacity=".25"/>
+  <!-- Plate -->
+  <ellipse cx="240" cy="240" rx="155" ry="140" fill="url(#plate)"/>
+  <ellipse cx="240" cy="240" rx="155" ry="140" fill="none" stroke="#ddd" stroke-width="3"/>
+  <!-- Inner ring -->
+  <ellipse cx="240" cy="240" rx="120" ry="108" fill="none" stroke="#e8ddd5" stroke-width="1.5"/>
+  <!-- Steak -->
+  <ellipse cx="240" cy="248" rx="80" ry="58" fill="#7b3f1a" rx="14"/>
+  <ellipse cx="240" cy="244" rx="80" ry="58" fill="#9b5320"/>
+  <ellipse cx="240" cy="238" rx="74" ry="52" fill="#b86530"/>
+  <!-- Grill marks -->
+  <line x1="200" y1="220" x2="220" y2="258" stroke="#6b3012" stroke-width="4" stroke-linecap="round"/>
+  <line x1="218" y1="216" x2="238" y2="260" stroke="#6b3012" stroke-width="4" stroke-linecap="round"/>
+  <line x1="236" y1="215" x2="256" y2="258" stroke="#6b3012" stroke-width="4" stroke-linecap="round"/>
+  <!-- Herb butter -->
+  <ellipse cx="252" cy="228" rx="22" ry="12" fill="#ffd966" opacity=".9"/>
+  <ellipse cx="252" cy="226" rx="20" ry="10" fill="#ffe49a"/>
+  <!-- Asparagus -->
+  <rect x="160" y="215" width="8" height="52" rx="4" fill="#5a8a3c"/>
+  <rect x="172" y="218" width="8" height="50" rx="4" fill="#6aa84f"/>
+  <rect x="184" y="212" width="8" height="56" rx="4" fill="#5a8a3c"/>
+  <!-- Cherry tomato -->
+  <circle cx="310" cy="240" r="14" fill="#e74c3c"/>
+  <circle cx="310" cy="234" r="5" fill="#c0392b"/>
+  <!-- Microgreens -->
+  <circle cx="285" cy="215" r="3" fill="#7cba49"/>
+  <circle cx="292" cy="210" r="3" fill="#5a8a3c"/>
+  <circle cx="299" cy="214" r="3" fill="#7cba49"/>
+  <circle cx="306" cy="209" r="3" fill="#5a8a3c"/>
+  <!-- Sauce dots -->
+  <circle cx="190" cy="295" r="5" fill="#e85d26" opacity=".8"/>
+  <circle cx="205" cy="300" r="4" fill="#e85d26" opacity=".6"/>
+  <circle cx="218" cy="298" r="3" fill="#e85d26" opacity=".5"/>
+  <!-- Steam lines -->
+  <path d="M230 175 q5-12 0-22" stroke="rgba(255,255,255,.4)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M243 168 q5-14 0-24" stroke="rgba(255,255,255,.35)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M256 172 q5-12 0-20" stroke="rgba(255,255,255,.3)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Garnish leaf -->
+  <ellipse cx="332" cy="258" rx="12" ry="6" fill="#5a8a3c" transform="rotate(-30 332 258)"/>
+</svg>

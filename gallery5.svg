@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+  <rect width="400" height="240" fill="#1a0e04"/>
+  <!-- Chef's hands / wooden surface -->
+  <rect x="0" y="140" width="400" height="100" fill="#6b3a18"/>
+  <rect x="0" y="138" width="400" height="6" fill="#5a2e10"/>
+  <!-- Wood grain -->
+  <line x1="0" y1="155" x2="400" y2="162" stroke="#5a2e10" stroke-width="1.5" opacity=".4"/>
+  <line x1="0" y1="175" x2="400" y2="181" stroke="#5a2e10" stroke-width="1.5" opacity=".3"/>
+  <line x1="0" y1="198" x2="400" y2="204" stroke="#5a2e10" stroke-width="1" opacity=".3"/>
+  <!-- Plating in progress — white plate -->
+  <circle cx="200" cy="178" r="70" fill="#f5f0ea" stroke="#ddd" stroke-width="2"/>
+  <circle cx="200" cy="178" r="55" fill="none" stroke="#e8e0d8" stroke-width="1"/>
+  <!-- Main protein on plate -->
+  <ellipse cx="200" cy="172" rx="36" ry="28" fill="#b05820"/>
+  <ellipse cx="198" cy="169" rx="32" ry="24" fill="#c86830"/>
+  <!-- Sauce smear (restaurant style) -->
+  <path d="M148 175 q22-12 55 0 q15 5 30-4" fill="#8b0000" stroke="#8b0000" stroke-width="12" stroke-linecap="round" opacity=".7"/>
+  <!-- Microgreens -->
+  <circle cx="200" cy="155" r="2.5" fill="#7cba49"/>
+  <circle cx="207" cy="151" r="2.5" fill="#5a8a3c"/>
+  <circle cx="194" cy="150" r="2" fill="#7cba49"/>
+  <circle cx="212" cy="155" r="2" fill="#5a8a3c"/>
+  <circle cx="188" cy="154" r="2" fill="#7cba49"/>
+  <!-- Sauce dots (plating technique) -->
+  <circle cx="155" cy="190" r="5" fill="#e85d26"/>
+  <circle cx="170" cy="194" r="4" fill="#c0392b"/>
+  <circle cx="184" cy="196" r="3.5" fill="#e85d26"/>
+  <circle cx="240" cy="188" r="5" fill="#27ae60"/>
+  <circle cx="254" cy="184" r="4" fill="#1e8449"/>
+  <!-- Tweezers (chef tool) -->
+  <line x1="280" y1="130" x2="240" y2="172" stroke="#bbb" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="290" y1="130" x2="246" y2="174" stroke="#bbb" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Label -->
+  <rect x="0" y="202" width="400" height="38" fill="rgba(0,0,0,.65)"/>
+  <text x="200" y="226" text-anchor="middle" font-size="15" fill="#fff" font-family="Georgia, serif" font-style="italic">Chef's Plating Art</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="300" height="220">
+  <rect width="300" height="220" fill="#fef5ec"/>
+  <!-- Plate -->
+  <ellipse cx="150" cy="175" rx="120" ry="18" fill="#e0d8d0"/>
+  <ellipse cx="150" cy="172" rx="116" ry="14" fill="#f0ebe4"/>
+  <!-- Calamari rings -->
+  <ellipse cx="100" cy="130" rx="35" ry="20" fill="none" stroke="#d4a055" stroke-width="14"/>
+  <ellipse cx="100" cy="130" rx="35" ry="20" fill="none" stroke="#f0c070" stroke-width="4"/>
+  <ellipse cx="160" cy="120" rx="32" ry="19" fill="none" stroke="#c8963a" stroke-width="13"/>
+  <ellipse cx="160" cy="120" rx="32" ry="19" fill="none" stroke="#e8b560" stroke-width="4"/>
+  <ellipse cx="205" cy="135" rx="28" ry="18" fill="none" stroke="#d4a055" stroke-width="12"/>
+  <ellipse cx="205" cy="135" rx="28" ry="18" fill="none" stroke="#f0c878" stroke-width="4"/>
+  <ellipse cx="135" cy="148" rx="30" ry="17" fill="none" stroke="#c89030" stroke-width="13"/>
+  <ellipse cx="135" cy="148" rx="30" ry="17" fill="none" stroke="#e8b048" stroke-width="4"/>
+  <!-- Dipping sauce -->
+  <circle cx="52" cy="148" r="24" fill="#f5f5f5" stroke="#ddd" stroke-width="1.5"/>
+  <circle cx="52" cy="148" r="18" fill="#e74c3c" opacity=".85"/>
+  <circle cx="47" cy="144" r="5" fill="#c0392b" opacity=".7"/>
+  <!-- Lemon wedge -->
+  <ellipse cx="248" cy="152" rx="18" ry="12" fill="#f4d03f" transform="rotate(-20 248 152)"/>
+  <line x1="240" y1="145" x2="256" y2="159" stroke="#d4b028" stroke-width="1" transform="rotate(-20 248 152)"/>
+  <!-- Parsley -->
+  <circle cx="78" cy="110" r="5" fill="#27ae60"/>
+  <circle cx="88" cy="106" r="4" fill="#2ecc71"/>
+  <circle cx="70" cy="104" r="4" fill="#27ae60"/>
+</svg>

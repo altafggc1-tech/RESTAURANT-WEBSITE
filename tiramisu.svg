@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="300" height="220">
+  <rect width="300" height="220" fill="#fdf8f5"/>
+  <!-- Glass dish -->
+  <rect x="60" y="90" width="180" height="100" rx="8" fill="#f5f0ea" stroke="#ddd" stroke-width="1.5"/>
+  <!-- Espresso-soaked layers -->
+  <rect x="64" y="120" width="172" height="18" rx="2" fill="#6b3a2a"/>
+  <rect x="64" y="152" width="172" height="18" rx="2" fill="#7a4432"/>
+  <!-- Mascarpone layers -->
+  <rect x="64" y="100" width="172" height="20" rx="2" fill="#faf5ee"/>
+  <rect x="64" y="138" width="172" height="14" rx="2" fill="#f5efe6"/>
+  <!-- Top cream layer -->
+  <rect x="64" y="170" width="172" height="18" rx="2" fill="#faf5ee"/>
+  <!-- Cocoa powder dusting -->
+  <rect x="64" y="170" width="172" height="8" rx="2" fill="#5c3318" opacity=".6"/>
+  <!-- Cocoa texture dots -->
+  <circle cx="85" cy="174" r="2" fill="#4a2810" opacity=".5"/>
+  <circle cx="100" cy="172" r="1.5" fill="#4a2810" opacity=".4"/>
+  <circle cx="115" cy="175" r="2" fill="#3a1a08" opacity=".5"/>
+  <circle cx="130" cy="173" r="1.5" fill="#4a2810" opacity=".4"/>
+  <circle cx="150" cy="175" r="2" fill="#3a1a08" opacity=".5"/>
+  <circle cx="165" cy="172" r="1.5" fill="#4a2810" opacity=".4"/>
+  <circle cx="180" cy="174" r="2" fill="#3a1a08" opacity=".5"/>
+  <circle cx="210" cy="173" r="1.5" fill="#4a2810" opacity=".4"/>
+  <!-- Coffee bean decoration -->
+  <ellipse cx="245" cy="150" rx="10" ry="14" fill="#4a2810" transform="rotate(20 245 150)"/>
+  <path d="M240 144 q5 6 10 12" stroke="#7a5030" stroke-width="1.5" fill="none" transform="rotate(20 245 150)"/>
+  <!-- Fork -->
+  <line x1="48" y1="88" x2="48" y2="195" stroke="#bbb" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="42" y1="88" x2="42" y2="108" stroke="#bbb" stroke-width="2" stroke-linecap="round"/>
+  <line x1="48" y1="88" x2="48" y2="108" stroke="#bbb" stroke-width="2" stroke-linecap="round"/>
+  <line x1="54" y1="88" x2="54" y2="108" stroke="#bbb" stroke-width="2" stroke-linecap="round"/>
+  <!-- Label -->
+  <text x="150" y="80" text-anchor="middle" font-size="11" fill="#888" font-family="Georgia, serif" font-style="italic">Tiramisu</text>
+</svg>

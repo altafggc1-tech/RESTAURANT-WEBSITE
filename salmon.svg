@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="300" height="220">
+  <rect width="300" height="220" fill="#f0f8ff"/>
+  <!-- Plate -->
+  <ellipse cx="150" cy="182" rx="120" ry="18" fill="#dde8f0"/>
+  <ellipse cx="150" cy="179" rx="116" ry="14" fill="#eef5fa"/>
+  <!-- Risotto bed -->
+  <ellipse cx="150" cy="158" rx="90" ry="44" fill="#f5f0e4"/>
+  <ellipse cx="148" cy="155" rx="83" ry="38" fill="#faf5ea"/>
+  <!-- Risotto texture -->
+  <circle cx="130" cy="152" r="3" fill="#e8d8b0" opacity=".7"/>
+  <circle cx="145" cy="148" r="3" fill="#e0cc9a" opacity=".7"/>
+  <circle cx="162" cy="155" r="3" fill="#e8d8b0" opacity=".6"/>
+  <circle cx="155" cy="163" r="3" fill="#e0cc9a" opacity=".6"/>
+  <circle cx="138" cy="165" r="3" fill="#e8d8b0" opacity=".7"/>
+  <!-- Salmon fillet -->
+  <ellipse cx="150" cy="140" rx="65" ry="32" fill="#e07840"/>
+  <ellipse cx="148" cy="136" rx="60" ry="28" fill="#f09050"/>
+  <ellipse cx="146" cy="132" rx="52" ry="22" fill="#f8a868"/>
+  <!-- Salmon skin -->
+  <path d="M95 140 q55 16 115 0" fill="#c05a28" opacity=".9"/>
+  <!-- White line on salmon -->
+  <path d="M106 128 q44-6 88 0" stroke="#fff" stroke-width="1.5" fill="none" opacity=".6" stroke-dasharray="4 3"/>
+  <!-- Dill sprigs -->
+  <path d="M88 118 q5-8 10-5 q-3 8-10 8z" fill="#27ae60"/>
+  <path d="M94 112 q6-7 11-4 q-2 8-11 7z" fill="#2ecc71"/>
+  <!-- Capers -->
+  <circle cx="185" cy="128" r="4" fill="#5a8c2e"/>
+  <circle cx="195" cy="135" r="4" fill="#4a7c26"/>
+  <circle cx="175" cy="133" r="3.5" fill="#5a8c2e"/>
+  <!-- Lemon slice -->
+  <circle cx="222" cy="150" r="18" fill="#f4e04c" opacity=".9"/>
+  <circle cx="222" cy="150" r="14" fill="#f9ec7a" opacity=".8"/>
+  <line x1="222" y1="132" x2="222" y2="168" stroke="#d4c030" stroke-width="1"/>
+  <line x1="204" y1="150" x2="240" y2="150" stroke="#d4c030" stroke-width="1"/>
+  <line x1="209" y1="137" x2="235" y2="163" stroke="#d4c030" stroke-width=".8"/>
+  <line x1="209" y1="163" x2="235" y2="137" stroke="#d4c030" stroke-width=".8"/>
+  <!-- Sauce dots -->
+  <circle cx="92" cy="168" r="4" fill="#e85d26" opacity=".7"/>
+  <circle cx="104" cy="172" r="3" fill="#e85d26" opacity=".55"/>
+</svg>

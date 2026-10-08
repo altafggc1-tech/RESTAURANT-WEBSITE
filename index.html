@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Food Haven – Fine Dining &amp; Fresh Flavours</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">🍽 Food Haven</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-tag">Welcome to Food Haven</p>
+      <h1>Where Every Bite<br>Tells a Story</h1>
+      <p class="hero-sub">Handcrafted dishes made with locally sourced ingredients,<br>served with warmth and passion since 2005.</p>
+      <div class="hero-btns">
+        <a href="#menu" class="btn btn-primary">Explore Menu</a>
+        <a href="#contact" class="btn btn-outline">Order Now</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="images/hero-dish.svg" alt="Signature dish at Food Haven" />
+    </div>
+  </section>
+
+  <!-- ===== STATS BAR ===== -->
+  <div class="stats-bar">
+    <div class="stat"><span class="stat-num">18+</span><span>Years of Excellence</span></div>
+    <div class="stat"><span class="stat-num">120+</span><span>Menu Items</span></div>
+    <div class="stat"><span class="stat-num">50k+</span><span>Happy Guests</span></div>
+    <div class="stat"><span class="stat-num">4.9★</span><span>Average Rating</span></div>
+  </div>
+
+  <!-- ===== MENU ===== -->
+  <section class="section" id="menu">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Our Specialties</p>
+        <h2>Handpicked Favourites</h2>
+        <p class="section-sub">From wood-fired starters to indulgent desserts — there's something for every palate.</p>
+      </div>
+
+      <div class="menu-tabs" id="menu-tabs">
+        <button class="tab active" data-tab="all">All</button>
+        <button class="tab" data-tab="starters">Starters</button>
+        <button class="tab" data-tab="mains">Mains</button>
+        <button class="tab" data-tab="desserts">Desserts</button>
+        <button class="tab" data-tab="drinks">Drinks</button>
+      </div>
+
+      <div class="menu-grid" id="menu-grid">
+        <!-- Starters -->
+        <div class="menu-card" data-cat="starters">
+          <div class="menu-img"><img src="images/bruschetta.svg" alt="Bruschetta" /></div>
+          <div class="menu-info">
+            <span class="badge">Starter</span>
+            <h3>Classic Bruschetta</h3>
+            <p>Grilled sourdough topped with heirloom tomatoes, fresh basil & drizzled olive oil.</p>
+            <div class="menu-footer"><span class="price">$8.99</span><button class="btn-add" data-name="Classic Bruschetta" data-price="8.99">+ Add</button></div>
+          </div>
+        </div>
+        <div class="menu-card" data-cat="starters">
+          <div class="menu-img"><img src="images/calamari.svg" alt="Calamari" /></div>
+          <div class="menu-info">
+            <span class="badge">Starter</span>
+            <h3>Crispy Calamari</h3>
+            <p>Lightly breaded squid rings served with house marinara and lemon aioli.</p>
+            <div class="menu-footer"><span class="price">$11.99</span><button class="btn-add" data-name="Crispy Calamari" data-price="11.99">+ Add</button></div>
+          </div>
+        </div>
+
+        <!-- Mains -->
+        <div class="menu-card" data-cat="mains">
+          <div class="menu-img"><img src="images/pasta.svg" alt="Pasta" /></div>
+          <div class="menu-info">
+            <span class="badge badge-main">Main</span>
+            <h3>Truffle Carbonara</h3>
+            <p>Hand-rolled spaghetti with pancetta, egg yolk, Parmesan and black truffle shavings.</p>
+            <div class="menu-footer"><span class="price">$22.99</span><button class="btn-add" data-name="Truffle Carbonara" data-price="22.99">+ Add</button></div>
+          </div>
+        </div>
+        <div class="menu-card" data-cat="mains">
+          <div class="menu-img"><img src="images/steak.svg" alt="Steak" /></div>
+          <div class="menu-info">
+            <span class="badge badge-main">Main</span>
+            <h3>Ribeye Steak</h3>
+            <p>10 oz. grass-fed ribeye, herb butter, garlic mash and seasonal vegetables.</p>
+            <div class="menu-footer"><span class="price">$36.99</span><button class="btn-add" data-name="Ribeye Steak" data-price="36.99">+ Add</button></div>
+          </div>
+        </div>
+        <div class="menu-card" data-cat="mains">
+          <div class="menu-img"><img src="images/salmon.svg" alt="Salmon" /></div>
+          <div class="menu-info">
+            <span class="badge badge-main">Main</span>
+            <h3>Pan-Seared Salmon</h3>
+            <p>Atlantic salmon fillet on a bed of lemon risotto with capers and dill cream.</p>
+            <div class="menu-footer"><span class="price">$28.99</span><button class="btn-add" data-name="Pan-Seared Salmon" data-price="28.99">+ Add</button></div>
+          </div>
+        </div>
+
+        <!-- Desserts -->
+        <div class="menu-card" data-cat="desserts">
+          <div class="menu-img"><img src="images/tiramisu.svg" alt="Tiramisu" /></div>
+          <div class="menu-info">
+            <span class="badge badge-dessert">Dessert</span>
+            <h3>Classic Tiramisu</h3>
+            <p>Layers of espresso-soaked ladyfingers and mascarpone cream, dusted with cocoa.</p>
+            <div class="menu-footer"><span class="price">$9.99</span><button class="btn-add" data-name="Classic Tiramisu" data-price="9.99">+ Add</button></div>
+          </div>
+        </div>
+        <div class="menu-card" data-cat="desserts">
+          <div class="menu-img"><img src="images/cake.svg" alt="Chocolate Lava Cake" /></div>
+          <div class="menu-info">
+            <span class="badge badge-dessert">Dessert</span>
+            <h3>Lava Cake</h3>
+            <p>Warm dark chocolate fondant with a molten centre, served with vanilla bean gelato.</p>
+            <div class="menu-footer"><span class="price">$10.99</span><button class="btn-add" data-name="Lava Cake" data-price="10.99">+ Add</button></div>
+          </div>
+        </div>
+
+        <!-- Drinks -->
+        <div class="menu-card" data-cat="drinks">
+          <div class="menu-img"><img src="images/cocktail.svg" alt="Cocktail" /></div>
+          <div class="menu-info">
+            <span class="badge badge-drink">Drink</span>
+            <h3>Haven Signature Spritz</h3>
+            <p>Aperol, prosecco, blood orange juice, mint and a splash of sparkling water.</p>
+            <div class="menu-footer"><span class="price">$13.99</span><button class="btn-add" data-name="Haven Signature Spritz" data-price="13.99">+ Add</button></div>
+          </div>
+        </div>
+        <div class="menu-card" data-cat="drinks">
+          <div class="menu-img"><img src="images/coffee.svg" alt="Coffee" /></div>
+          <div class="menu-info">
+            <span class="badge badge-drink">Drink</span>
+            <h3>Artisan Cold Brew</h3>
+            <p>24-hour slow-steeped single-origin coffee, served over ice with sweet cream.</p>
+            <div class="menu-footer"><span class="price">$6.99</span><button class="btn-add" data-name="Artisan Cold Brew" data-price="6.99">+ Add</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section section-alt" id="about">
+    <div class="container about-grid">
+      <div class="about-img">
+        <img src="images/about-restaurant.svg" alt="Inside Food Haven" />
+      </div>
+      <div class="about-text">
+        <p class="section-tag">Our Story</p>
+        <h2>Rooted in Passion,<br>Driven by Flavour</h2>
+        <p>Food Haven was born in 2005 when chef Maria Rossi decided to transform her grandmother's kitchen recipes into a dining experience that the whole city could enjoy. What started as a 12-seat bistro has grown into one of the most beloved restaurants in town — but our heart has never changed.</p>
+        <p>We source every ingredient from local farms within 50 miles, change our menu with the seasons, and believe that great food is really about great people — the farmers, the cooks, and especially our guests.</p>
+        <div class="about-highlights">
+          <div class="highlight"><span class="hi-icon">🌿</span><div><strong>Farm-to-Table</strong><small>100% locally sourced</small></div></div>
+          <div class="highlight"><span class="hi-icon">👨‍🍳</span><div><strong>Expert Chefs</strong><small>Award-winning kitchen team</small></div></div>
+          <div class="highlight"><span class="hi-icon">♻️</span><div><strong>Zero Waste</strong><small>Sustainable practices</small></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Visual Feast</p>
+        <h2>From Our Kitchen &amp; Table</h2>
+        <p class="section-sub">A glimpse of the dishes, spaces and moments that make Food Haven special.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item tall"><img src="images/gallery1.svg" alt="Gallery 1" /></div>
+        <div class="gallery-item"><img src="images/gallery2.svg" alt="Gallery 2" /></div>
+        <div class="gallery-item"><img src="images/gallery3.svg" alt="Gallery 3" /></div>
+        <div class="gallery-item wide"><img src="images/gallery4.svg" alt="Gallery 4" /></div>
+        <div class="gallery-item"><img src="images/gallery5.svg" alt="Gallery 5" /></div>
+        <div class="gallery-item"><img src="images/gallery6.svg" alt="Gallery 6" /></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== REVIEWS ===== -->
+  <section class="section section-alt" id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Guest Voices</p>
+        <h2>What Our Guests Say</h2>
+      </div>
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>"Absolutely incredible experience. The truffle carbonara was the best pasta I've ever had. The staff were warm and attentive — we'll definitely be back!"</p>
+          <div class="reviewer"><img src="images/avatar1.svg" alt="Sarah M." /><div><strong>Sarah M.</strong><small>New York, NY</small></div></div>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>"Food Haven is our go-to for every special occasion. The ambiance is stunning, the food is consistently exceptional, and the wine list is superb."</p>
+          <div class="reviewer"><img src="images/avatar2.svg" alt="James T." /><div><strong>James T.</strong><small>Brooklyn, NY</small></div></div>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★½</div>
+          <p>"The lava cake is life-changing. We ordered it twice in the same meal — no regrets. The salmon was also perfectly cooked. Highly recommend."</p>
+          <div class="reviewer"><img src="images/avatar3.svg" alt="Priya K." /><div><strong>Priya K.</strong><small>Queens, NY</small></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Get in Touch</p>
+        <h2>Reserve a Table or Order In</h2>
+        <p class="section-sub">Fill in the form and we'll get back to you within the hour.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="info-item"><span class="info-icon">📍</span><div><strong>Address</strong><p>142 Harbour Lane, West Village, New York, NY 10014</p></div></div>
+          <div class="info-item"><span class="info-icon">📞</span><div><strong>Phone</strong><p><a href="tel:+12125550198">+1 (212) 555-0198</a></p></div></div>
+          <div class="info-item"><span class="info-icon">✉️</span><div><strong>Email</strong><p><a href="mailto:hello@foodhaven.com">hello@foodhaven.com</a></p></div></div>
+          <div class="info-item"><span class="info-icon">🕐</span><div><strong>Opening Hours</strong>
+            <p>Mon – Thu: 11:00 AM – 10:00 PM<br>
+               Fri – Sat: 11:00 AM – 11:30 PM<br>
+               Sunday: 12:00 PM – 9:00 PM</p>
+          </div></div>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" placeholder="Jane Doe" />
+              <span class="err" id="err-name"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" placeholder="jane@example.com" />
+              <span class="err" id="err-email"></span>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000" />
+              <span class="err" id="err-phone"></span>
+            </div>
+            <div class="form-group">
+              <label for="guests">Number of Guests</label>
+              <select id="guests" name="guests">
+                <option value="">Select guests</option>
+                <option>1</option><option>2</option><option>3</option>
+                <option>4</option><option>5</option><option>6+</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="service">Service Type *</label>
+            <select id="service" name="service">
+              <option value="">Choose a service</option>
+              <option value="dine-in">Dine In</option>
+              <option value="takeaway">Takeaway</option>
+              <option value="delivery">Delivery</option>
+              <option value="reservation">Reservation</option>
+            </select>
+            <span class="err" id="err-service"></span>
+          </div>
+          <div class="form-group">
+            <label for="message">Message / Special Requests</label>
+            <textarea id="message" name="message" rows="4" placeholder="Allergies, dietary requirements, special occasion…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Request</button>
+          <div class="form-success" id="form-success">✅ Thank you! We'll confirm your booking shortly.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo">🍽 Food Haven</span>
+        <p>Crafting memorable meals since 2005.<br>142 Harbour Lane, West Village, NY</p>
+      </div>
+      <div class="footer-links">
+        <strong>Quick Links</strong>
+        <a href="#home">Home</a><a href="#menu">Menu</a>
+        <a href="#about">About</a><a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-links">
+        <strong>Follow Us</strong>
+        <a href="#">Instagram</a><a href="#">Facebook</a>
+        <a href="#">Twitter / X</a><a href="#">TripAdvisor</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Food Haven. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Cart toast -->
+  <div class="cart-toast" id="cart-toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

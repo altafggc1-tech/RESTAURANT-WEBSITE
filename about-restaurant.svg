@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420">
+  <defs>
+    <linearGradient id="wallGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8ddd0"/>
+      <stop offset="100%" stop-color="#c8b898"/>
+    </linearGradient>
+  </defs>
+  <!-- Background / walls -->
+  <rect width="560" height="420" fill="url(#wallGrad)"/>
+  <!-- Floor -->
+  <rect x="0" y="300" width="560" height="120" fill="#8b6830"/>
+  <rect x="0" y="300" width="560" height="8" fill="#7a5820"/>
+  <!-- Floor tiles -->
+  <rect x="0" y="310" width="70" height="55" fill="none" stroke="#7a5820" stroke-width="1" opacity=".4"/>
+  <rect x="70" y="310" width="70" height="55" fill="none" stroke="#7a5820" stroke-width="1" opacity=".4"/>
+  <rect x="140" y="310" width="70" height="55" fill="none" stroke="#7a5820" stroke-width="1" opacity=".4"/>
+  <rect x="210" y="310" width="70" height="55" fill="none" stroke="#7a5820" stroke-width="1" opacity=".4"/>
+  <rect x="280" y="310" width="70" height="55" fill="none" stroke="#7a5820" stroke-width="1" opacity=".4"/>
+  <rect x="350" y="310" width="70" height="55" fill="none" stroke="#7a5820" stroke-width="1" opacity=".4"/>
+  <rect x="420" y="310" width="70" height="55" fill="none" stroke="#7a5820" stroke-width="1" opacity=".4"/>
+  <rect x="490" y="310" width="70" height="55" fill="none" stroke="#7a5820" stroke-width="1" opacity=".4"/>
+  <!-- Back wall decor stripe -->
+  <rect x="0" y="80" width="560" height="4" fill="#d4c4a8" opacity=".5"/>
+  <!-- Window large -->
+  <rect x="60" y="30" width="160" height="200" rx="6" fill="#c8e8f8" stroke="#a08060" stroke-width="3"/>
+  <rect x="60" y="30" width="160" height="200" rx="6" fill="rgba(255,248,240,.3)"/>
+  <!-- Window panes -->
+  <line x1="140" y1="30" x2="140" y2="230" stroke="#a08060" stroke-width="2.5"/>
+  <line x1="60" y1="130" x2="220" y2="130" stroke="#a08060" stroke-width="2.5"/>
+  <!-- Curtain left -->
+  <path d="M55 25 q-10 80 0 200" fill="#e85d26" opacity=".4" stroke="#e85d26" stroke-width="12" stroke-linecap="round"/>
+  <!-- Curtain right -->
+  <path d="M225 25 q10 80 0 200" fill="#e85d26" opacity=".4" stroke="#e85d26" stroke-width="12" stroke-linecap="round"/>
+  <!-- Table 1 -->
+  <rect x="80" y="264" width="160" height="8" rx="2" fill="#5a3810"/>
+  <rect x="100" y="272" width="8" height="28" rx="2" fill="#4a3010"/>
+  <rect x="224" y="272" width="8" height="28" rx="2" fill="#4a3010"/>
+  <!-- Table cloth 1 -->
+  <rect x="72" y="240" width="176" height="30" rx="4" fill="#fff" opacity=".95" stroke="#e0d8d0" stroke-width="1"/>
+  <!-- Table setting 1 -->
+  <circle cx="130" cy="252" r="14" fill="#f5f0ea" stroke="#ddd" stroke-width="1"/>
+  <circle cx="200" cy="252" r="14" fill="#f5f0ea" stroke="#ddd" stroke-width="1"/>
+  <line x1="110" y1="244" x2="110" y2="262" stroke="#bbb" stroke-width="2"/>
+  <line x1="120" y1="244" x2="120" y2="262" stroke="#bbb" stroke-width="1.5"/>
+  <!-- Candle on table 1 -->
+  <rect x="162" y="232" width="6" height="16" rx="1" fill="#f8f0d8"/>
+  <ellipse cx="165" cy="232" rx="4" ry="6" fill="#f59e0b" opacity=".8"/>
+  <!-- Table 2 (right) -->
+  <rect x="340" y="264" width="160" height="8" rx="2" fill="#5a3810"/>
+  <rect x="355" y="272" width="8" height="28" rx="2" fill="#4a3010"/>
+  <rect x="484" y="272" width="8" height="28" rx="2" fill="#4a3010"/>
+  <!-- Table cloth 2 -->
+  <rect x="332" y="240" width="176" height="30" rx="4" fill="#fff" opacity=".95" stroke="#e0d8d0" stroke-width="1"/>
+  <!-- Table setting 2 -->
+  <circle cx="390" cy="252" r="14" fill="#f5f0ea" stroke="#ddd" stroke-width="1"/>
+  <circle cx="460" cy="252" r="14" fill="#f5f0ea" stroke="#ddd" stroke-width="1"/>
+  <line x1="370" y1="244" x2="370" y2="262" stroke="#bbb" stroke-width="2"/>
+  <line x1="380" y1="244" x2="380" y2="262" stroke="#bbb" stroke-width="1.5"/>
+  <!-- Wine glass -->
+  <path d="M425 226 q0 15-10 22 h20 q-10-7-10-22z" fill="#c8e8f8" opacity=".7"/>
+  <line x1="425" y1="248" x2="425" y2="262" stroke="#bbb" stroke-width="1.5"/>
+  <line x1="418" y1="262" x2="432" y2="262" stroke="#bbb" stroke-width="1.5"/>
+  <!-- Candle on table 2 -->
+  <rect x="452" y="232" width="6" height="16" rx="1" fill="#f8f0d8"/>
+  <ellipse cx="455" cy="232" rx="4" ry="6" fill="#f59e0b" opacity=".8"/>
+  <!-- Wall art frame -->
+  <rect x="310" y="50" width="110" height="140" rx="4" fill="#3d2010" stroke="#2c1608" stroke-width="3"/>
+  <rect x="318" y="58" width="94" height="124" rx="2" fill="#e8d8c0"/>
+  <!-- Simple art in frame -->
+  <ellipse cx="365" cy="120" rx="30" ry="40" fill="#e85d26" opacity=".6"/>
+  <ellipse cx="365" cy="108" rx="20" ry="25" fill="#c8933a" opacity=".5"/>
+  <!-- Overhead lights -->
+  <circle cx="160" cy="20" r="6" fill="#f8e8a0"/>
+  <line x1="160" y1="0" x2="160" y2="14" stroke="#888" stroke-width="2"/>
+  <circle cx="160" cy="20" r="10" fill="#f9ec7a" opacity=".35"/>
+  <circle cx="400" cy="20" r="6" fill="#f8e8a0"/>
+  <line x1="400" y1="0" x2="400" y2="14" stroke="#888" stroke-width="2"/>
+  <circle cx="400" cy="20" r="10" fill="#f9ec7a" opacity=".35"/>
+  <!-- Food Haven sign -->
+  <rect x="220" y="10" width="120" height="30" rx="4" fill="#1a1a2e" opacity=".85"/>
+  <text x="280" y="30" text-anchor="middle" font-size="12" fill="#e85d26" font-family="Georgia, serif" font-weight="bold">🍽 Food Haven</text>
+</svg>

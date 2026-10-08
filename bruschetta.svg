@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="300" height="220">
+  <rect width="300" height="220" fill="#fdf6ef"/>
+  <!-- Bread slice 1 -->
+  <rect x="40" y="80" width="100" height="90" rx="6" fill="#c8933a"/>
+  <rect x="40" y="80" width="100" height="16" rx="4" fill="#e0aa55"/>
+  <rect x="40" y="154" width="100" height="16" rx="4" fill="#b07820"/>
+  <!-- Toppings -->
+  <circle cx="65" cy="118" r="12" fill="#e74c3c"/>
+  <circle cx="90" cy="110" r="10" fill="#c0392b"/>
+  <circle cx="110" cy="120" r="11" fill="#e74c3c"/>
+  <circle cx="80" cy="135" r="9" fill="#c0392b"/>
+  <!-- Basil leaves -->
+  <ellipse cx="72" cy="100" rx="9" ry="5" fill="#27ae60" transform="rotate(-20 72 100)"/>
+  <ellipse cx="105" cy="104" rx="8" ry="5" fill="#2ecc71" transform="rotate(15 105 104)"/>
+  <!-- Oil drizzle -->
+  <path d="M55 145 q15-5 30 0 q15 5 30 0" stroke="#f0c040" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Bread slice 2 (back) -->
+  <rect x="160" y="70" width="100" height="90" rx="6" fill="#b07820" opacity=".9"/>
+  <rect x="160" y="70" width="100" height="14" rx="4" fill="#c8933a"/>
+  <circle cx="185" cy="108" r="11" fill="#e74c3c"/>
+  <circle cx="210" cy="100" r="10" fill="#c0392b"/>
+  <circle cx="230" cy="112" r="11" fill="#e74c3c"/>
+  <ellipse cx="192" cy="92" rx="8" ry="5" fill="#27ae60" transform="rotate(-15 192 92)"/>
+  <!-- Plate -->
+  <ellipse cx="150" cy="180" rx="120" ry="18" fill="#e8e0d8"/>
+  <ellipse cx="150" cy="178" rx="116" ry="14" fill="#f5f0ea"/>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+  <rect width="400" height="240" fill="#f5f0ea"/>
+  <!-- Dessert table -->
+  <rect x="0" y="160" width="400" height="80" fill="#e8ddd0"/>
+  <rect x="0" y="158" width="400" height="6" fill="#c8b898"/>
+  <!-- Tiramisu in dish -->
+  <rect x="50" y="100" width="120" height="70" rx="6" fill="#f5f0e8" stroke="#ddd" stroke-width="1.5"/>
+  <rect x="54" y="120" width="112" height="14" rx="2" fill="#6b3a2a"/>
+  <rect x="54" y="148" width="112" height="12" rx="2" fill="#6b3a2a"/>
+  <rect x="54" y="104" width="112" height="16" rx="2" fill="#faf5ee"/>
+  <rect x="54" y="134" width="112" height="14" rx="2" fill="#faf5ee"/>
+  <!-- Cocoa top -->
+  <rect x="54" y="160" width="112" height="8" rx="2" fill="#5c3318" opacity=".55"/>
+  <!-- Cake stand -->
+  <ellipse cx="260" cy="140" rx="65" ry="8" fill="#f5f0e8" stroke="#ddd" stroke-width="1.5"/>
+  <rect x="252" y="138" width="16" height="22" rx="4" fill="#ddd"/>
+  <ellipse cx="260" cy="162" rx="30" ry="5" fill="#ddd"/>
+  <!-- Cake on stand -->
+  <ellipse cx="260" cy="130" rx="58" ry="38" fill="#f5e8c8"/>
+  <ellipse cx="260" cy="122" rx="55" ry="32" fill="#f8edd0"/>
+  <ellipse cx="260" cy="116" rx="50" ry="26" fill="#faf2da"/>
+  <!-- Frosting drips -->
+  <path d="M215 116 q5 10 3 20" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M230 112 q4 12 2 22" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M300 115 q-4 10-3 20" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- Berry decoration on cake -->
+  <circle cx="255" cy="108" r="7" fill="#c0392b"/>
+  <circle cx="268" cy="104" r="6" fill="#e74c3c"/>
+  <circle cx="248" cy="103" r="5" fill="#c0392b"/>
+  <!-- Macarons row -->
+  <ellipse cx="340" cy="155" rx="16" ry="9" fill="#f39c12"/>
+  <ellipse cx="340" cy="155" rx="14" ry="7" fill="#f5b942"/>
+  <ellipse cx="340" cy="162" rx="14" ry="8" fill="#e67e22"/>
+  <ellipse cx="340" cy="162" rx="12" ry="6" fill="#f08030"/>
+  <!-- Macarons 2 -->
+  <ellipse cx="368" cy="153" rx="16" ry="9" fill="#e74c3c"/>
+  <ellipse cx="368" cy="153" rx="14" ry="7" fill="#ff6b6b"/>
+  <ellipse cx="368" cy="160" rx="14" ry="8" fill="#c0392b"/>
+  <ellipse cx="368" cy="160" rx="12" ry="6" fill="#e74c3c"/>
+  <!-- Label -->
+  <rect x="0" y="198" width="400" height="42" fill="rgba(26,26,46,.6)"/>
+  <text x="200" y="222" text-anchor="middle" font-size="15" fill="#fff" font-family="Georgia, serif" font-style="italic">Dessert Bar</text>
+</svg>

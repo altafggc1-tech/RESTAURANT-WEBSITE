@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="300" height="220">
+  <rect width="300" height="220" fill="#fdf8f2"/>
+  <!-- Plate -->
+  <ellipse cx="150" cy="180" rx="120" ry="18" fill="#e0d8d0"/>
+  <ellipse cx="150" cy="177" rx="116" ry="14" fill="#f0ebe4"/>
+  <!-- Pasta nest base -->
+  <ellipse cx="150" cy="148" rx="80" ry="48" fill="#f5e6c8"/>
+  <!-- Pasta strands -->
+  <path d="M80 130 q35-30 70-10 q35 20 70-10" fill="none" stroke="#d4a84b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M85 142 q30-25 65-8 q35 18 65-8" fill="none" stroke="#c89030" stroke-width="4" stroke-linecap="round"/>
+  <path d="M90 154 q28-22 60-6 q32 16 60-6" fill="none" stroke="#d4a84b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M88 165 q30-18 62-4 q30 14 60-4" fill="none" stroke="#e0b850" stroke-width="3" stroke-linecap="round"/>
+  <path d="M95 175 q28-14 55-2 q27 12 55-2" fill="none" stroke="#c89030" stroke-width="3" stroke-linecap="round"/>
+  <!-- Pancetta pieces -->
+  <rect x="118" y="128" width="18" height="12" rx="3" fill="#c0392b" opacity=".9"/>
+  <rect x="158" y="136" width="16" height="10" rx="3" fill="#a93226"/>
+  <rect x="140" y="150" width="15" height="11" rx="3" fill="#c0392b" opacity=".85"/>
+  <!-- Egg yolk -->
+  <circle cx="152" cy="135" r="14" fill="#f8e4a0"/>
+  <circle cx="152" cy="133" r="11" fill="#f5cc50"/>
+  <circle cx="149" cy="131" r="4" fill="#f8d870" opacity=".8"/>
+  <!-- Truffle shavings -->
+  <ellipse cx="165" cy="124" rx="9" ry="5" fill="#3d2b1f" opacity=".85" transform="rotate(-15 165 124)"/>
+  <ellipse cx="138" cy="120" rx="8" ry="4" fill="#3d2b1f" opacity=".75" transform="rotate(10 138 120)"/>
+  <ellipse cx="175" cy="140" rx="7" ry="4" fill="#2c1a0e" opacity=".8" transform="rotate(-25 175 140)"/>
+  <!-- Parmesan shreds -->
+  <rect x="125" y="165" width="14" height="4" rx="2" fill="#f0e8c8" transform="rotate(-10 125 165)"/>
+  <rect x="155" y="168" width="12" height="4" rx="2" fill="#e8d8b0" transform="rotate(8 155 168)"/>
+  <!-- Pepper -->
+  <circle cx="180" cy="158" r="2.5" fill="#2c2c2c"/>
+  <circle cx="170" cy="165" r="2" fill="#2c2c2c"/>
+  <circle cx="125" cy="155" r="2" fill="#2c2c2c"/>
+</svg>

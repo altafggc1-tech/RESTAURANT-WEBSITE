@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="300" height="220">
+  <rect width="300" height="220" fill="#f5f0ea"/>
+  <!-- Ice cubes in glass -->
+  <!-- Glass -->
+  <path d="M95 50 l10 145 h90 l10-145 z" fill="#e8f4f8" stroke="#c0d8e8" stroke-width="1.5" opacity=".85"/>
+  <!-- Coffee liquid (dark) -->
+  <path d="M98 90 l7 105 h90 l7-105 z" fill="#2c1506" opacity=".9"/>
+  <!-- Ice cube 1 -->
+  <rect x="110" y="95" width="32" height="28" rx="4" fill="rgba(200,230,245,.7)" stroke="rgba(180,210,230,.5)" stroke-width="1"/>
+  <!-- Ice cube 2 -->
+  <rect x="155" y="100" width="28" height="25" rx="4" fill="rgba(200,230,245,.65)" stroke="rgba(180,210,230,.5)" stroke-width="1"/>
+  <!-- Ice cube 3 -->
+  <rect x="118" y="128" width="30" height="26" rx="4" fill="rgba(200,230,245,.6)" stroke="rgba(180,210,230,.5)" stroke-width="1"/>
+  <!-- Sweet cream float -->
+  <ellipse cx="155" cy="88" rx="52" ry="12" fill="#fff9f0" opacity=".9"/>
+  <ellipse cx="153" cy="86" rx="45" ry="9" fill="#fff" opacity=".85"/>
+  <!-- Cream swirl -->
+  <path d="M128 85 q12-8 25 0 q12 8 25 0" stroke="#f8f0e4" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Coffee ring on table -->
+  <ellipse cx="152" cy="200" rx="65" ry="8" fill="#d4b896" opacity=".5"/>
+  <!-- Glass base -->
+  <rect x="108" y="190" width="88" height="10" rx="5" fill="#c0d8e8" opacity=".7"/>
+  <!-- Coffee beans decoration -->
+  <ellipse cx="220" cy="115" rx="12" ry="16" fill="#3d1506" transform="rotate(15 220 115)"/>
+  <path d="M215 109 q5 6 10 12" stroke="#6b3020" stroke-width="1.5" fill="none" transform="rotate(15 220 115)"/>
+  <ellipse cx="238" cy="140" rx="10" ry="14" fill="#2c1006" transform="rotate(-10 238 140)"/>
+  <path d="M234 134 q4 7 8 13" stroke="#5a2818" stroke-width="1.5" fill="none" transform="rotate(-10 238 140)"/>
+  <!-- Straw -->
+  <rect x="170" y="48" width="5" height="100" rx="2.5" fill="#27ae60" opacity=".8"/>
+  <!-- Label text -->
+  <text x="152" y="40" text-anchor="middle" font-size="10" fill="#888" font-family="Georgia, serif" font-style="italic">Cold Brew</text>
+</svg>

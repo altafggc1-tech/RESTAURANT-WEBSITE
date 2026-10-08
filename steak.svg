@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="300" height="220">
+  <rect width="300" height="220" fill="#fdf6ef"/>
+  <!-- Plate shadow -->
+  <ellipse cx="150" cy="185" rx="120" ry="18" fill="#d0c8c0"/>
+  <!-- Plate -->
+  <ellipse cx="150" cy="180" rx="116" ry="14" fill="#f0ebe4"/>
+  <!-- Garlic mash -->
+  <ellipse cx="150" cy="155" rx="85" ry="42" fill="#f5f0e8"/>
+  <ellipse cx="148" cy="152" rx="78" ry="36" fill="#faf8f2"/>
+  <!-- Steak -->
+  <ellipse cx="152" cy="140" rx="65" ry="45" fill="#7b3010"/>
+  <ellipse cx="150" cy="136" rx="63" ry="43" fill="#9b4820"/>
+  <ellipse cx="148" cy="132" rx="56" ry="37" fill="#b56030"/>
+  <!-- Fat marbling -->
+  <path d="M120 120 q15 5 30 0" stroke="#f5e0c8" stroke-width="2.5" fill="none"/>
+  <path d="M130 138 q12 3 22 0" stroke="#f5e8d8" stroke-width="2" fill="none"/>
+  <!-- Grill marks -->
+  <line x1="114" y1="118" x2="128" y2="152" stroke="#5a2008" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+  <line x1="130" y1="113" x2="144" y2="150" stroke="#5a2008" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+  <line x1="146" y1="112" x2="160" y2="148" stroke="#5a2008" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+  <!-- Herb butter -->
+  <ellipse cx="165" cy="122" rx="20" ry="10" fill="#f5c842" opacity=".95"/>
+  <ellipse cx="165" cy="120" rx="17" ry="8" fill="#ffd84a"/>
+  <!-- Green veg -->
+  <ellipse cx="90" cy="145" rx="16" ry="10" fill="#3d7a28" transform="rotate(-15 90 145)"/>
+  <ellipse cx="95" cy="138" rx="14" ry="8" fill="#4e9a32" transform="rotate(10 95 138)"/>
+  <ellipse cx="210" cy="148" rx="15" ry="9" fill="#3d7a28" transform="rotate(20 210 148)"/>
+  <ellipse cx="218" cy="140" rx="13" ry="8" fill="#4e9a32" transform="rotate(-10 218 140)"/>
+  <!-- Sauce on plate -->
+  <path d="M80 168 q20-6 40 0" stroke="#8b2500" stroke-width="3" fill="none" stroke-linecap="round" opacity=".6"/>
+  <!-- Sea salt flakes -->
+  <rect x="155" y="118" width="5" height="2" rx="1" fill="#fff" opacity=".9" transform="rotate(20 155 118)"/>
+  <rect x="170" y="115" width="4" height="2" rx="1" fill="#fff" opacity=".8" transform="rotate(-15 170 115)"/>
+</svg>

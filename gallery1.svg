@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#1a1a2e"/>
+  <!-- Large pasta bowl hero shot -->
+  <ellipse cx="200" cy="260" rx="160" ry="120" fill="#f5f0ea"/>
+  <ellipse cx="198" cy="255" rx="145" ry="108" fill="#faf5ee"/>
+  <!-- Pasta mound -->
+  <ellipse cx="200" cy="230" rx="100" ry="70" fill="#d4a848"/>
+  <ellipse cx="198" cy="222" rx="90" ry="60" fill="#e8c060"/>
+  <!-- Sauce -->
+  <ellipse cx="200" cy="215" rx="60" ry="42" fill="#c0392b" opacity=".85"/>
+  <!-- Pasta noodles -->
+  <path d="M150 200 q25-18 50-5 q25 12 50-5" fill="none" stroke="#b89038" stroke-width="5" stroke-linecap="round"/>
+  <path d="M155 215 q22-15 45-3 q22 12 45-3" fill="none" stroke="#c8a040" stroke-width="4" stroke-linecap="round"/>
+  <path d="M148 230 q27-15 52-2 q25 12 52-2" fill="none" stroke="#b89038" stroke-width="5" stroke-linecap="round"/>
+  <!-- Meatballs -->
+  <circle cx="175" cy="208" r="18" fill="#8b4513"/>
+  <circle cx="173" cy="205" r="16" fill="#a0521a"/>
+  <circle cx="225" cy="212" r="16" fill="#8b4513"/>
+  <circle cx="223" cy="209" r="14" fill="#9a4d18"/>
+  <!-- Basil -->
+  <ellipse cx="200" cy="192" rx="14" ry="8" fill="#27ae60" transform="rotate(-20 200 192)"/>
+  <ellipse cx="212" cy="186" rx="12" ry="7" fill="#2ecc71" transform="rotate(15 212 186)"/>
+  <!-- Parmesan -->
+  <rect x="188" y="220" width="20" height="5" rx="2" fill="#f5e8c0" transform="rotate(-10 188 220)"/>
+  <!-- Steam -->
+  <path d="M190 165 q5-15 0-28" stroke="rgba(255,255,255,.3)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M205 158 q6-18 0-32" stroke="rgba(255,255,255,.25)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Title overlay -->
+  <rect x="0" y="340" width="400" height="60" fill="rgba(26,26,46,.75)"/>
+  <text x="200" y="375" text-anchor="middle" font-size="18" fill="#fff" font-family="Georgia, serif" font-style="italic">Pasta Night</text>
+</svg>

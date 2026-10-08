@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="300" height="220">
+  <rect width="300" height="220" fill="#fff8f0"/>
+  <!-- Glass body -->
+  <path d="M110 60 l-20 140 h100 l-20-140 z" fill="#f0f8ff" stroke="#c8dff0" stroke-width="1.5" opacity=".9"/>
+  <!-- Orange juice layer -->
+  <path d="M92 155 l4 45 h108 l4-45 z" fill="#f39c12" opacity=".85"/>
+  <!-- Prosecco bubbles layer -->
+  <path d="M100 100 l-8 55 h116 l-8-55 z" fill="#f9e8a0" opacity=".7"/>
+  <!-- Aperol layer -->
+  <path d="M106 80 l-6 20 h100 l-6-20 z" fill="#e85d26" opacity=".75"/>
+  <!-- Bubbles -->
+  <circle cx="135" cy="140" r="3" fill="#fff" opacity=".6"/>
+  <circle cx="155" cy="130" r="2.5" fill="#fff" opacity=".5"/>
+  <circle cx="148" cy="150" r="2" fill="#fff" opacity=".6"/>
+  <circle cx="165" cy="145" r="3" fill="#fff" opacity=".5"/>
+  <circle cx="140" cy="160" r="2" fill="#fff" opacity=".55"/>
+  <!-- Orange wheel garnish -->
+  <circle cx="200" cy="95" r="22" fill="#f39c12"/>
+  <circle cx="200" cy="95" r="16" fill="#f5b942"/>
+  <circle cx="200" cy="95" r="8" fill="#fdd276"/>
+  <line x1="200" y1="73" x2="200" y2="117" stroke="#d68910" stroke-width="1"/>
+  <line x1="178" y1="95" x2="222" y2="95" stroke="#d68910" stroke-width="1"/>
+  <line x1="184" y1="79" x2="216" y2="111" stroke="#d68910" stroke-width=".8"/>
+  <line x1="184" y1="111" x2="216" y2="79" stroke="#d68910" stroke-width=".8"/>
+  <!-- Garnish notch on rim -->
+  <path d="M190 95 l-10-35" stroke="#d68910" stroke-width="1.5" fill="none"/>
+  <!-- Mint sprig -->
+  <path d="M175 70 q-8-15-4-24" stroke="#27ae60" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <ellipse cx="170" cy="58" rx="8" ry="5" fill="#27ae60" transform="rotate(-25 170 58)"/>
+  <ellipse cx="176" cy="53" rx="7" ry="4" fill="#2ecc71" transform="rotate(10 176 53)"/>
+  <!-- Straw -->
+  <rect x="158" y="48" width="5" height="85" rx="2.5" fill="#ff8c60" opacity=".9"/>
+  <!-- Glass shine -->
+  <path d="M115 75 q3 40 2 80" stroke="rgba(255,255,255,.5)" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>
